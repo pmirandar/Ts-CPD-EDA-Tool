@@ -13,7 +13,7 @@ https://www.preprints.org/manuscript/202310.0597/v1
 
  The boundaries, design specifications and algorithm parameters are set in the Main_Case_x.m file.
 
- The boundaries can be chosen in the next lines, depending on the case:
+ #### The boundaries can be chosen in the next lines, depending on the case:
 
 ----------
 ```
@@ -60,7 +60,7 @@ W1, W3, W4, W6, W8, W1, W15, Iref, Re1
 ```
 ----------
 
-### The specitication for the circuit are set the next lines:
+#### The specitication for the circuit are set the next lines:
 ```
 %% Desing criteria (Set design specifications)
 F.Ref_OLG = 74;           % (dB)
@@ -77,7 +77,7 @@ F.Ref_T_MOS_A = 800e-12;  % (m^2)
 ```
 The user can choose the desired values.
 
-### The algorithm parametrs are set in the next lines (only for experts):
+#### The algorithm parametrs are set in the next lines (only for experts):
 ```
 %% Ts-CPD   (Set algorithm parameters)
 P.Q     =  10;
