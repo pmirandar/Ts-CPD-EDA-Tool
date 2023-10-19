@@ -16,6 +16,7 @@ https://www.preprints.org/manuscript/202310.0597/v1
  The boundaries can be chosen in the next lines, depending on the case:
 
 ----------
+```
 %% Function (Set boundaries)
 F=fun_case1;
 F.Tmax     =   2;
@@ -30,7 +31,9 @@ F.ub maximum size
 with the next order
 
 W1, W2, W3, W5, CL, Ib
+```
 ----------
+```
 %% Function (Set boundaries)
 F=fun_case2;
 F.Tmax  =   2;
@@ -41,7 +44,9 @@ F.ub    =   [100e-6; 100e-6; 100e-6; 100e-6; 12e-12; 14e-12; 50e-6];
 with the next order
 
 W1, W3, W5, W8, CL, Cc, Iref
+```
 ----------
+```
 %% Function (Set boundaries)
 F=fun_case3;
 F.Tmax  =   2;
@@ -52,10 +57,11 @@ F.ub    =   [120e-6; 120e-6; 120e-6; 120e-6; 120e-6; 120e-6; 120e-6; 150e-6; 6e3
 with the next order
 
 W1, W3, W4, W6, W8, W1, W15, Iref, Re1
+```
 ----------
 
 ### The specitication for the circuit are set the next lines:
-
+```
 %% Desing criteria (Set design specifications)
 F.Ref_OLG = 74;           % (dB)
 F.Ref_UBW = 10e6;         % (Hz)
@@ -68,5 +74,5 @@ F.Ref_CMRR = 55;          % (dB)
 F.Ref_PSRRn = 55;         % (dB)
 F.Ref_PSRRp = 55;         % (dB)
 F.Ref_T_MOS_A = 800e-12;  % (m^2)
-
+```
 The user can choose the desired values.
