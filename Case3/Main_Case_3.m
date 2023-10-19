@@ -19,7 +19,7 @@ clear all
 
 %% Function (Set boundaries)
 F=fun_case3;
-F.Tmax  =   2;
+F.Tmax  =   20;
 F.D     =   9;
 F.lb    =   [4e-6; 4e-6; 4e-6; 4e-6; 4e-6; 4e-6; 4e-6; 10e-6; 1e3];  
 F.ub    =   [120e-6; 120e-6; 120e-6; 120e-6; 120e-6; 120e-6; 120e-6; 150e-6; 6e3];
