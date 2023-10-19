@@ -53,3 +53,20 @@ with the next order
 
 W1, W3, W4, W6, W8, W1, W15, Iref, Re1
 ----------
+
+### The specitication for the circuit are set the next lines:
+
+%% Desing criteria (Set design specifications)
+F.Ref_OLG = 74;           % (dB)
+F.Ref_UBW = 10e6;         % (Hz)
+F.Ref_PM_MIN = 60;        % (deg)
+F.Ref_PM_MAX = 90;        % (deg)
+F.Ref_CL = 10e-12;        % (F)
+F.Ref_SR = 10;            % (V/us)
+F.Ref_Pd = 5e-3;          % (W)
+F.Ref_CMRR = 55;          % (dB)
+F.Ref_PSRRn = 55;         % (dB)
+F.Ref_PSRRp = 55;         % (dB)
+F.Ref_T_MOS_A = 800e-12;  % (m^2)
+
+The user can choose the desired values.
