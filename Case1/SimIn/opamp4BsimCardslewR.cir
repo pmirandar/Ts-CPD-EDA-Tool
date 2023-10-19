@@ -1,0 +1,38 @@
+ opamp
+* for calculation of slew rate 
+*
+.include SimInOut/param.cir
+*.include modelos.mod
+.include SimIn/modeloBSIM.cir
+.include SimIn/opamp-main-2.cir
+* opamp desciption
+* power supplies
+VDD 4 0 DC +2.5V
+Vss 5 0 DC -2.5V
+*Vc1 2 0 DC 1.2V
+*Vc2 5 0 DC 1.2V
+* differential-mode signal level
+*Vd 21 0 DC 0V
+*Vd 2 0 PWL(0, -5V 1ns,+5V 30000ns,+5V 30001ns,-5V 1s, -5V )
+Vd 2 0 PWL(0, 0V 1ns,+2.0V 5000ns,+2.0V 5001ns,0V 0.5s, 0V )
+* nodo 1 es negativo (-)
+Vshort 1 3 0
+*                                                            
+*** Analysis Requests **
+*.op
+*.tran 0.1ns 50us
+.control
+set units=degrees
+*tran 0.1ns 50us
+** .TF V(13) Vd
+*** AC
+* tf V(3) Vd
+* AC dec 1000 1 20MEGHZ 
+* .acphace 0
+tran 50ns 10us
+*tran 0.1ns 50us
+* Output Requests **
+*plot v(2) v(3)
+wrdata SimInOut/slewrate v(2) v(3)
+.endc
+.end

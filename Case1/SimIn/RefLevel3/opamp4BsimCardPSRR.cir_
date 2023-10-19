@@ -1,0 +1,17 @@
+- op-amp, PSRR+
+* for calculation of positive Power Supply Rejection Ratio (PSRR+) 
+*
+.include param.cir
+.include modelos.mod
+.include opamp-main.cir
+.control
+set units=degrees
+ OP
+*** Analysis Requests **
+ AC dec 1000 1 10HZ 
+*
+* Output Requests **
+*plot v(3)
+wrdata psrr+ v(3)
+.endc
+.end

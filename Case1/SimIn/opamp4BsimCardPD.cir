@@ -1,0 +1,32 @@
+- op-amp
+* 
+*
+** Circuit Description **
+.include SimInOut/param.cir
+.options badmos3
+.include SimIn/modeloBSIM.cir
+.include SimIn/opamp-main-2.cir
+VDD 4 0 DC +2.5V 
+Vss 5 0 DC -2.5V
+* differential-mode signal level
+Vd 101 0 sin(0 0.1 100000000) ac 1.0V dc 0.0
+Rd 101 0 1
+EV1 2 100 101 0 +0.5
+EV2 1 100 101 0 -0.5
+* common-mode signal level
+Vcm 100 0 DC 1V
+*** Analysis Requests **
+.control
+set units=degrees
+ OP
+*** AC
+* tf V(3) Vd
+* AC dec 1000 1 100MEGHZ 
+* .acphace 0
+* Output Requests **
+wrdata SimInOut/pd  i(VDD)
+*wrdata SimInOut/pd-  dc i(M5)
+show > SimInOut/all.data
+
+.endc
+.end

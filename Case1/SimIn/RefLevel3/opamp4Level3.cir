@@ -1,0 +1,103 @@
+- op-amp
+* 
+*
+** Circuit Description **
+.include param.cir
+.options badmos3
+* power supplies
+VDD 4 0 DC +5V 
+Vss 5 0 DC -5V
+*Vc1 2 0 DC 1.2V
+*Vc2 5 0 DC 1.2V
+* differential-mode signal level
+*Vd 21 0 DC 0V
+Vd 101 0 sin(0 0.1 100000000) ac 1.0V dc 0.0
+*Vd 21 0 dc 0.0 ac 1 0
+*+ distof1 1 0
+*+ distof2 1 0
+*+ sin(0 0.1V 100000000 0 0)
+*vin 2 5 sin(0 0.1 20000000) ac 1.0V dc 0.0
+* to DC sweep the input common-mode level, offset diff-input by +220uV
+*Vd 21 0 DC +220.0uV
+Rd 101 0 1
+EV1 2 100 101 0 +0.5
+EV2 1 100 101 0 -0.5
+*EV1 2 100 101 0 +1.0
+*EV2 1 100 101 0 -1.0
+* common-mode signal level
+Vcm 100 0 DC 0V
+* front-end stage
+M2 6 9 4 4 CMOSP L=1.6u W={w2} 
+M3 7 1 6 4 CMOSP L=1.6u W={w3} 
+M4 8 2 6 4 CMOSP L=1.6u W={w4} 
+M5 7 7 5 5 CMOSN L=1.6u W={w5} 
+M6 8 7 5 5 CMOSN L=1.6u W={w6}
+* 2nd gain stage
+M7 3 9 4 4 CMOSP L=1.6u W={w7} 
+M8 3 8 5 5 CMOSN L=1.6u W={w8}
+* current source biasing stage 
+M1 9 9 4 4 CMOSP L=1.6u W={w1} 
+Iref 9 5 dc 25uA
+* compensation network
+Rc 10 3 {Rc}
+Cc 8 10 {CAPc}
+* load for the op-amp
+CL 3 0 1.0pF
+*
+*                                                                               
+* DATE: Jan 16/09                                                               
+* LOT: T8AH                  WAF: 0112                                          
+* DIE: N_Area_Fring          DEV: N3740/10                                      
+* Temp= 27                                                                      
+.MODEL CMOSN NMOS (                                 LEVEL  = 3                 
++ TOX    = 3.09E-8         NSUB   = 9.782424E15     GAMMA  = 0.7826778          
++ PHI    = 0.9550306       VTO    = 0.608185        DELTA  = 0.6112521          
++ UO     = 544.5490822     ETA    = 8.82198E-4      THETA  = 0.0725484          
++ KP     = 7.309927E-5     VMAX   = 2.882156E5      KAPPA  = 0.5                
++ RSH    = 21.9253991      NFS    = 5.859829E11     TPG    = 1                  
++ XJ     = 3E-7            LD     = 7.918159E-15    WD     = 6.659779E-7        
++ CGDO   = 2.38E-10        CGSO   = 2.38E-10        CGBO   = 1E-10              
++ CJ     = 2.844556E-4     PB     = 0.8947808       MJ     = 0.5                
++ CJSW   = 1.071006E-10    MJSW   = 0.05            )                           
+*                        
+* DATE: Jan 16/09                                                               
+* LOT: T8AH                  WAF: 0112                                          
+* DIE: P_Area_Fring          DEV: P3740/10                                      
+* Temp= 27                                                                      
+.MODEL CMOSP PMOS (                                 LEVEL  = 3                  
++ TOX    = 3.09E-8         NSUB   = 1E17            GAMMA  = 0.4964329          
++ PHI    = 0.7             VTO    = -0.9144318      DELTA  = 0.3924713          
++ UO     = 102.2606372     ETA    = 1.438881E-4     THETA  = 0.1283476          
++ KP     = 2.415455E-5     VMAX   = 1.202443E5      KAPPA  = 50                 
++ RSH    = 0.2005942       NFS    = 5.596803E11     TPG    = -1                 
++ XJ     = 2E-7            LD     = 1.001158E-14    WD     = 1E-6               
++ CGDO   = 2.67E-10        CGSO   = 2.67E-10        CGBO   = 1E-10              
++ CJ     = 2.987593E-4     PB     = 0.8             MJ     = 0.4548649          
++ CJSW   = 1.532637E-10    MJSW   = 0.081423        )                           
+*                     
+                          
+*                                                            
+*** Analysis Requests **
+*.DC Vd -4mV +4mV 100uV
+** to DC sweep the input common-mode level
+** .DC Vcm 0V +5V 0.1V
+** for DC operating-point infromation and small-signal "DC gain"
+.control
+set units=degrees
+*.TEMP 25
+*.TNOM 25
+ OP
+** .TF V(13) Vd
+*** AC
+ tf V(3) Vd
+ AC dec 1000 1 100MEGHZ 
+* .acphace 0
+* Output Requests **
+**plot  vdb(3) vp(3)
+*wrdata ac_analysis vdB(3) vp(3)
+wrdata ngspice vdb(3) vp(3)
+show m6 > m6.data
+*quit
+*.probe
+.endc
+.end

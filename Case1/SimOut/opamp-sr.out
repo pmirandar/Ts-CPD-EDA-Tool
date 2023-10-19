@@ -1,0 +1,47 @@
+
+No compatibility mode selected!
+
+
+Circuit:  opamp
+
+Warning: Model issue on line 7 :
+  .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e-9 xj=1.5e-7 nch ...
+unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 :
+  .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e-9 xj=1.5e-7 nch ...
+unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: vd: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+7                                    -0.869515
+8                                     -1.97591
+5                                         -2.5
+6                                      1.74394
+2                                            0
+3                                   0.00705615
+1                                   0.00705615
+4                                          2.5
+vshort#branch                     -5.92923e-21
+vd#branch                                    0
+vss#branch                         2.41352e-05
+vdd#branch                        -2.41352e-05
+
+
+No. of Data Rows : 237
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run

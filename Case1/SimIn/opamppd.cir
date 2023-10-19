@@ -1,0 +1,37 @@
+- op-amp
+* 
+*
+** Circuit Description **
+.include SimInOut/param.cir
+.options badmos3
+.include SimIn/modeloBSIM.cir
+.include SimIn/opamp-main-2.cir
+VDD 4 0 DC +2.5V 
+Vss 5 0 DC -2.5V
+* differential-mode signal level
+*Vd 101 0 sin(0 0.1 100000000) ac 1.0V dc 0.0
+*Vd 101 0 pulse(0 2 0 100p 100p 1.9n 4n)
+**Vd 101 0 pulse(0 2 0 100n 100n 4.9u 10u)
+Vd 101 0 pulse(0 2 0 100p 100p 4.9999u 10u)
+*Vd 101 0 sin(0 1 4000000)
+Rd 101 0 1
+EV1 2 100 101 0 +0.5
+EV2 1 100 101 0 -0.5
+* common-mode signal level
+Vcm 100 0 DC 0V
+*** Analysis Requests **
+.options method=trap reltol=0.1m
+*.tran 10p 12n 4ns
+.tran 10n 14u 4us
+.save all @VDD[p]
+
+.control
+run
+*wrdata SimInOut/pdnew  i(VDD)
+meas tran iave INTEG i(VDD) from=4us to=14us
+let power = -iave * 5 / 10us ; how to access psu from here?
+print power > SimInOut/pd2.txt
+
+*show > SimInOut/allpd.data
+.endc
+.end
