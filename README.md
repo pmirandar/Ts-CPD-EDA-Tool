@@ -76,3 +76,16 @@ F.Ref_PSRRp = 55;         % (dB)
 F.Ref_T_MOS_A = 800e-12;  % (m^2)
 ```
 The user can choose the desired values.
+
+### The algorithm parametrs are set in the next lines (only for experts):
+```
+%% Ts-CPD   (Set algorithm parameters)
+P.Q     =  10;
+P.l     =  4;
+P.c1    =  2;
+P.c2    =  2;
+P.Cr    =  0.9;
+P.c3    =  0.6;
+P.Wmin  =  0.7;
+P.Wmax  =  0.15;
+```
