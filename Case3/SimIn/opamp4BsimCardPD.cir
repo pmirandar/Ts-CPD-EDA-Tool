@@ -1,0 +1,17 @@
+- op-amp Power dissipation
+* 
+* for Power dissipation calculation
+*
+.include SimInOut/param.cir
+*.include modelos.mod
+.include SimIn/modeloBSIM.cir
+.include SimIn/fcota.cir
+*                                                            
+*** Analysis Requests **
+.tran 1n 20n
+.control
+ OP
+* Output Requests **
+wrdata SimInOut/pd i(VDD)
+.endc
+.end

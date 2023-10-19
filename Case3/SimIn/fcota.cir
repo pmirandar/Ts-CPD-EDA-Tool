@@ -1,0 +1,37 @@
+* fcota (folded cascode operational trans-conductance)
+* 
+* 25 - Feb - 2021
+*
+* Circuit description
+*
+* input stage
+*T D G S B
+M1 6 2 13 13  CMOSN L={l1} W={w1}
+M2 7 1 13 13  CMOSN L={l2} W={w2}
+M3 13 14 5 5 CMOSN L={l3} W={w3}
+*
+* Current source
+M15 14 14 5 5 CMOSN L={l15} W={w15}
+Ibias 4 14 dc {Iref}
+*
+* Second column
+M14 8 9 4 4 CMOSP L={l14} W={w14}
+M13 9 10 8 8 CMOSP L={l13} W={w13}
+R1 9 10 {Re1}
+M12 10 14 5 5 CMOSN L={l12} W={w12}
+*
+* Third column
+M4 6 9 4 4 CMOSP L={l4} W={w4}
+M6 11 10 6 6 CMOSP L={l6} W={w6}
+R2 11 12 {Re2}
+M8 12 11 15 15 CMOSN L={l8} W={w8}
+M10 15 12 5 5 CMOSN L={l10} W={w10}
+*
+* Fourth column
+M5 7 9 4 4 CMOSP L={l5} W={w5}
+M7 3 10 7 7 CMOSP L={l7} W={w7}
+M9 3 11 16 16 CMOSN L={l9} W={w9}
+M11 16 12 5 5 CMOSN L={l11} W={w11}
+*
+* Load capacitance
+CL 3 0 {CL}

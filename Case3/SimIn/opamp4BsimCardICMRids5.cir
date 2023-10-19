@@ -1,0 +1,46 @@
+- op-amp
+* 
+*
+** Circuit Description **
+.include SimInOut/param.cir
+.options badmos3
+.include SimIn/modeloBSIM.cir
+.include SimIn/fcota.cir
+VDD 4 0 DC +2.5V 
+Vss 5 0 DC -2.5V
+VIN 101 0 PWL(0,-2V 10ns,-2V 20ns,2V 2us,2V 2.01us,-2V 4us,-2V 4.01us,-.1V 6us,-.1V 6.01us,.1V, 8us,.1V 8.01us,-.1V 10us,-.1V)
+*Vd 101 0 sin(0 0.1 100000000) ac 1.0V dc 0.0
+*+ sin(0 0.1V 100000000 0 0)
+*vin 2 5 sin(0 0.1 20000000) ac 1.0V dc 0.0
+* to DC sweep the input common-mode level, offset diff-input by +220uV
+*Vd 21 0 DC +220.0uV
+Rd 101 0 1
+EV1 2 100 101 0 +0.5
+EV2 1 100 101 0 -0.5
+* common-mode signal level
+Vcm 100 0 DC 0V
+Rshort 1 3 0
+*VD3 13 200 dc 0V
+*VS3 201 5 dc 0V
+*** Analysis Requests **
+** for DC operating-point infromation and small-signal "DC gain"
+.control
+set units=degrees
+ OP
+* tf v(3) VIN+
+*** AC
+* tf V(3) Vd
+* AC dec 1000 1 100MEGHZ 
+* .acphace 0
+* Output Requests **
+*show m2 id > SimInOut/icmr
+
+tran 0.05u 10u 0 10n
+*plot v(3,1)
+
+dc VIN -5 5 0.1V
+*plot VD5#branch vs v(1)
+*wrdata SimInOut/ids5 VD3#branch  v(1)
+wrdata SimInOut/ids5  i(v(13)) v(1)
+.endc
+.end

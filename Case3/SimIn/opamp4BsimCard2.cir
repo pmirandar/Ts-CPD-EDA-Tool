@@ -1,0 +1,60 @@
+- op-amp
+* 
+*
+** Circuit Description **
+.include SimInOut/param.cir
+.options badmos3
+.include SimIn/modeloBSIM.cir
+.include SimIn/fcota.cir
+*.include SimIn/power-supplies.cir
+* power supplies
+*vdi={vd}
+*vsi={vs}
+VDD 4 0 DC +2.5V 
+*Vss 5 0 DC 0V
+Vss 5 0 DC -2.5V
+*Vc1 2 0 DC 1.2V
+*Vc2 5 0 DC 1.2V
+* differential-mode signal level
+*Vd 21 0 DC 0V
+Vd 101 0 sin(0 0.1 100000000) ac 1.0V dc 0.0
+*Vd 21 0 dc 0.0 ac 1 0
+*+ distof1 1 0
+*+ distof2 1 0
+*+ sin(0 0.1V 100000000 0 0)
+*vin 2 5 sin(0 0.1 20000000) ac 1.0V dc 0.0
+* to DC sweep the input common-mode level, offset diff-input by +220uV
+*Vd 21 0 DC +220.0uV
+Rd 101 0 1
+EV1 2 100 101 0 +0.5
+EV2 1 100 101 0 -0.5
+*EV1 2 100 101 0 +1.0
+*EV2 1 100 101 0 -1.0
+* common-mode signal level
+Vcm 100 0 DC 0V
+*** Analysis Requests **
+*.DC Vd -4mV +4mV 100uV
+** to DC sweep the input common-mode level
+** .DC Vcm 0V +5V 0.1V
+** for DC operating-point infromation and small-signal "DC gain"
+.control
+set units=degrees
+*.TEMP 25
+*.TNOM 25
+ OP
+** .TF V(13) Vd
+*** AC
+ tf V(3) Vd
+* AC dec 1000 1 100MEGHZ 
+ AC dec 100 1 60MEGHZ 
+* .acphace 0
+* Output Requests **
+**plot  vdb(3) vp(3)
+*wrdata ac_analysis vdB(3) vp(3)
+wrdata SimInOut/ngspice vdb(3) unwrap(vp(3))
+*show m6 > m6.data
+*show m7 > m7.data
+*quit
+*.probe
+.endc
+.end

@@ -1,0 +1,295 @@
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      1.86032
+2                                            0
+13                                    -0.69458
+7                                      1.86031
+1                                            0
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -2.02281
+12                                    -2.02543
+15                                    -2.47474
+3                                     -2.02472
+16                                    -2.47473
+101                                          0
+100                                          0
+ev2#branch                                   0
+ev1#branch                                   0
+vcm#branch                                   0
+vd#branch                                    0
+vss#branch                         0.000386816
+vdd#branch                        -0.000386816
+
+
+No. of Data Rows : 1110
+iave                =  -3.81188e-09 from=  4.00223e-06 to=  1.40000e-05
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      1.86032
+2                                            0
+13                                    -0.69458
+7                                      1.86031
+1                                            0
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -2.02281
+12                                    -2.02543
+15                                    -2.47474
+3                                     -2.02472
+16                                    -2.47473
+101                                          0
+100                                          0
+ev2#branch                                   0
+ev1#branch                                   0
+vcm#branch                                   0
+vd#branch                                    0
+vss#branch                         0.000386816
+vdd#branch                        -0.000386816
+
+
+No. of Data Rows : 1110
+iave                =  -3.81188e-09 from=  4.00223e-06 to=  1.40000e-05
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      1.86032
+2                                            0
+13                                    -0.69458
+7                                      1.86031
+1                                            0
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -2.02281
+12                                    -2.02543
+15                                    -2.47474
+3                                     -2.02472
+16                                    -2.47473
+101                                          0
+100                                          0
+ev2#branch                                   0
+ev1#branch                                   0
+vcm#branch                                   0
+vd#branch                                    0
+vss#branch                         0.000386816
+vdd#branch                        -0.000386816
+
+
+No. of Data Rows : 1110
+iave                =  -3.81188e-09 from=  4.00223e-06 to=  1.40000e-05
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      1.86032
+2                                            0
+13                                    -0.69458
+7                                      1.86031
+1                                            0
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -2.02281
+12                                    -2.02543
+15                                    -2.47474
+3                                     -2.02472
+16                                    -2.47473
+101                                          0
+100                                          0
+ev2#branch                                   0
+ev1#branch                                   0
+vcm#branch                                   0
+vd#branch                                    0
+vss#branch                         0.000386816
+vdd#branch                        -0.000386816
+
+
+No. of Data Rows : 1110
+iave                =  -3.81188e-09 from=  4.00223e-06 to=  1.40000e-05
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      1.86032
+2                                            0
+13                                    -0.69458
+7                                      1.86031
+1                                            0
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -2.02281
+12                                    -2.02543
+15                                    -2.47474
+3                                     -2.02472
+16                                    -2.47473
+101                                          0
+100                                          0
+ev2#branch                                   0
+ev1#branch                                   0
+vcm#branch                                   0
+vd#branch                                    0
+vss#branch                         0.000386816
+vdd#branch                        -0.000386816
+
+
+No. of Data Rows : 1110
+iave                =  -3.81188e-09 from=  4.00223e-06 to=  1.40000e-05

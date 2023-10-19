@@ -1,0 +1,225 @@
+
+Circuit: - op-amp, cmrr calculation
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 8001
+
+Circuit: - op-amp, cmrr calculation
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 8001
+
+Circuit: - op-amp, cmrr calculation
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 8001
+
+Circuit: - op-amp, cmrr calculation
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 8001
+
+Circuit: - op-amp, cmrr calculation
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 8001

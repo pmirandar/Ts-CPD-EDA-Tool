@@ -1,0 +1,85 @@
+
+No compatibility mode selected!
+
+
+Circuit:  opamp
+
+Warning: Model issue on line 7 :
+  .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e-9 xj=1.5e-7 nch ...
+unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 :
+  .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e-9 xj=1.5e-7 nch ...
+unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: vd: no DC value, transient time 0 value used
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: Last gmin step failed
+Warning: True gmin stepping failed
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: Dynamic gmin stepping completed
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                     0.557996
+2                                            0
+13                                   -0.883811
+7                                     0.594157
+1                                  -0.00147652
+14                                    -1.79802
+5                                         -2.5
+4                                          2.5
+8                                     0.819651
+9                                   -0.0698384
+10                                   -0.828598
+11                                    -1.38171
+12                                    -1.82046
+15                                    -2.06339
+3                                  -0.00147652
+16                                    -2.05089
+vshort#branch                      -1.0842e-19
+vd#branch                                    0
+vss#branch                          0.00068268
+vdd#branch                         -0.00068268
+
+
+No. of Data Rows : 161
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run

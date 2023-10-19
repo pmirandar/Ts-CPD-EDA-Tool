@@ -1,0 +1,490 @@
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      2.06707
+2                                           -1
+13                                    -1.65663
+7                                     -1.64364
+1                                            1
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -1.81856
+12                                    -1.87918
+15                                    -2.42341
+3                                            1
+16                                    -2.41019
+101                                         -2
+100                                          0
+200                                   -1.64364
+201                                       -2.5
+ev2#branch                        -3.43341e-05
+ev1#branch                                   0
+vs3#branch                                   0
+vd3#branch                                   0
+vcm#branch                        -3.43341e-05
+vin#branch                                   2
+vss#branch                         0.000441562
+vdd#branch                        -0.000407228
+
+
+No. of Data Rows : 1113
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 101
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      2.06707
+2                                           -1
+13                                    -1.65663
+7                                     -1.64364
+1                                            1
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -1.81856
+12                                    -1.87918
+15                                    -2.42341
+3                                            1
+16                                    -2.41019
+101                                         -2
+100                                          0
+200                                   -1.64364
+201                                       -2.5
+ev2#branch                        -3.43341e-05
+ev1#branch                                   0
+vs3#branch                                   0
+vd3#branch                                   0
+vcm#branch                        -3.43341e-05
+vin#branch                                   2
+vss#branch                         0.000441562
+vdd#branch                        -0.000407228
+
+
+No. of Data Rows : 1113
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 101
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      2.06707
+2                                           -1
+13                                    -1.65663
+7                                     -1.64364
+1                                            1
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -1.81856
+12                                    -1.87918
+15                                    -2.42341
+3                                            1
+16                                    -2.41019
+101                                         -2
+100                                          0
+200                                   -1.64364
+201                                       -2.5
+ev2#branch                        -3.43341e-05
+ev1#branch                                   0
+vs3#branch                                   0
+vd3#branch                                   0
+vcm#branch                        -3.43341e-05
+vin#branch                                   2
+vss#branch                         0.000441562
+vdd#branch                        -0.000407228
+
+
+No. of Data Rows : 1113
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 101
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      2.06707
+2                                           -1
+13                                    -1.65663
+7                                     -1.64364
+1                                            1
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -1.81856
+12                                    -1.87918
+15                                    -2.42341
+3                                            1
+16                                    -2.41019
+101                                         -2
+100                                          0
+200                                   -1.64364
+201                                       -2.5
+ev2#branch                        -3.43341e-05
+ev1#branch                                   0
+vs3#branch                                   0
+vd3#branch                                   0
+vcm#branch                        -3.43341e-05
+vin#branch                                   2
+vss#branch                         0.000441562
+vdd#branch                        -0.000407228
+
+
+No. of Data Rows : 1113
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 101
+
+Circuit: - op-amp
+
+Warning: Model issue on line 7 : .model cmosn nmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Warning: Model issue on line 9 : .model cmosp pmos ( level=8 version=3.1 tnom=27 tox=7.7e ...
+  unrecognized parameter (xl) - ignored
+unrecognized parameter (xw) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+6                                      2.06707
+2                                           -1
+13                                    -1.65663
+7                                     -1.64364
+1                                            1
+14                                    -1.63303
+5                                         -2.5
+4                                          2.5
+8                                      2.24411
+9                                      1.38175
+10                                     1.18409
+11                                    -1.81856
+12                                    -1.87918
+15                                    -2.42341
+3                                            1
+16                                    -2.41019
+101                                         -2
+100                                          0
+200                                   -1.64364
+201                                       -2.5
+ev2#branch                        -3.43341e-05
+ev1#branch                                   0
+vs3#branch                                   0
+vd3#branch                                   0
+vcm#branch                        -3.43341e-05
+vin#branch                                   2
+vss#branch                         0.000441562
+vdd#branch                        -0.000407228
+
+
+No. of Data Rows : 1113
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+No. of Data Rows : 101
