@@ -89,3 +89,33 @@ P.c3    =  0.6;
 P.Wmin  =  0.7;
 P.Wmax  =  0.15;
 ```
+### Dependecies
+Besides MatLab you will need the electronic circuit simulator Ngspice
+https://ngspice.sourceforge.io/download.html
+
+### Operating Sistem selection
+
+In the Main_Case_x.m file, wwhere x is the example number, choose 1 for Windows or 0 for Mac OS in the next line:
+```
+%% Operating System Selection (Windows=1, Mac=0)
+F.system=0;
+```
+### Path to Ngspice
+
+The path to the Ngspice simulator is set in the file opamp_sim.m in next lines:
+```
+if system==1
+! C:\Spice64\bin\ngspice -b -o SimOut/opamp-main.out  SimIn/opamp4BsimCard2.cir
+! C:\Spice64\bin\ngspice -b -o SimOut/opamp-sr.out    SimIn/opamp4BsimCardslewR.cir
+.
+.
+else
+% Run Ngspice
+% Make sure Ngspice and .cir files are available
+% in this directory
+! /Applications/ngspice/bin/ngspice -b -o SimOut/opamp-main.out  SimIn/opamp4BsimCard2.cir
+! /Applications/ngspice/bin/ngspice -b -o SimOut/opamp-sr.out    SimIn/opamp4BsimCardslewR.cir
+.
+.
+```
+Depending on the OS you are using. These action is necessary because Ngspice is used in batch mode.
