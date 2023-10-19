@@ -1,0 +1,26 @@
+- op-amp, CMRR calculation
+* for calculation of Common Mode Relation Ratio (CMRR) 
+*
+** Circuit Description **
+.include SimInOut/param.cir
+*.include modelos.mod
+.include SimIn/modeloBSIM.cir
+.include SimIn/opamp-main-2.cir
+* power supplies
+VDD 4 0 DC +2.5V 
+Vss 5 0 DC -2.5V
+*
+* Common mode sources
+Vd 2 0 sin(0 0.1 100000000) ac 1.0V dc 0.0
+Vshort 1 3 sin(0 0.1 100000000) ac 1.0V dc 0.0
+.control
+set units=degrees
+ OP
+*** Analysis Requests **
+ AC dec 1000 1 100HZ 
+*
+* Output Requests **
+*plot v(3)
+wrdata SimInOut/cmrr v(3)
+.endc
+.end

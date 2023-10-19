@@ -1,0 +1,25 @@
+- op-amp
+*
+** Circuit Description **
+.include SimInOut/param.cir
+*.include modelos.mod
+.include SimIn/modeloBSIM.cir
+.include SimIn/opamp-main-2.cir
+* power supplies
+VDD 24 0 DC +2.5V
+Vss 5 0 DC -2.5V
+* Other external connections
+Vshort 1 3 0
+Vgnd 2 0 0
+Vd 4 24 sin(0 0.1 100000000) ac 1.0V dc 0.0
+.control
+set units=degrees
+ OP
+*** Analysis Requests **
+ AC dec 1000 1 10HZ
+*
+* Output Requests **
+*plot v(3)
+wrdata SimInOut/psrr+ v(3)
+.endc
+.end

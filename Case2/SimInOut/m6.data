@@ -1,0 +1,24 @@
+ BSIM3v1: Berkeley Short Channel IGFET Model Version-3 (3.1)
+     device                    m6
+      model                 cmosp
+          l                 2e-06
+          w                 2e-06
+          m                     1
+         ad                     0
+         as                     0
+         pd           1.89708e-06
+         ps           1.89708e-06
+        nrd                     1
+        nrs                     1
+        off                     0
+     nqsmod                     0
+       gmbs           8.77842e-06
+         gm           4.23097e-05
+        gds           8.00814e-07
+      vdsat              0.920431
+        vth              0.780568
+         id           2.55845e-05
+        vbs                    -0
+        vgs               1.86184
+        vds               1.86184
+

@@ -1,0 +1,74 @@
+*         RUN: N8CS                                         VENDOR: TSMC
+*   TECHNOLOGY: SCN035H                               FEATURE SIZE: 0.35 microns
+*
+* DATE: Mar 10/99
+* LOT: n8cs                  WAF: 08
+* Temperature_parameters=Default
+.MODEL CMOSN NMOS (                                LEVEL   = 8
++VERSION = 3.1            TNOM    = 27             TOX     = 7.7E-9
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 0.5068216
++K1      = 0.5749847      K2      = 0.0128401      K3      = 4.6022201
++K3B     = 1.2547359      W0      = 1E-5           NLX     = 1.900328E-7
++DVT0W   = 0              DVT1W   = 5.3E6          DVT2W   = -0.032
++DVT0    = 7.5799894      DVT1    = 0.8392029      DVT2    = -0.0168709
++U0      = 418.319228     UA      = 1.006254E-10   UB      = 1.962016E-18
++UC      = 6.055129E-11   VSAT    = 1.316502E5     A0      = 0.9976849
++AGS     = 0.2896963      B0      = 1.723836E-6    B1      = 5E-6
++KETA    = -4.470486E-3   A1      = 0              A2      = 1
++RDSW    = 1.019438E3     PRWG    = -1E-3          PRWB    = -1E-3
++WR      = 1              WINT    = 6.902592E-8    LINT    = 1.046932E-9
++XL      = 0              XW      = 0              DWG     = -1.658507E-8
++DWB     = 5.281886E-9    VOFF    = -0.1240329     NFACTOR = 0.3628286
++CIT     = 0              CDSC    = 1.527511E-3    CDSCD   = 0
++CDSCB   = 0              ETA0    = 4.406846E-3    ETAB    = 0
++DSUB    = 0.0655522      PCLM    = 0.4522542      PDIBLC1 = 0.5806181
++PDIBLC2 = 4.462594E-3    PDIBLCB = 0              DROUT   = 0.8997796
++PSCBE1  = 7.245872E9     PSCBE2  = 5E-10          PVAG    = 7.710019E-3
++DELTA   = 0.01           MOBMOD  = 1              PRT     = 0
++UTE     = -1.5           KT1     = -0.11          KT1L    = 0
++KT2     = 0.022          UA1     = 4.31E-9        UB1     = -7.61E-18
++UC1     = -5.6E-11       AT      = 3.3E4          WL      = 0
++WLN     = 1              WW      = 0              WWN     = 1
++WWL     = 0              LL      = 0              LLN     = 1
++LW      = 0              LWN     = 1              LWL     = 0
++CAPMOD  = 2              XPART   = 0.4            CGDO    = 3.00E-10
++CGSO    = 3.00E-10       CGBO    = 0              CJ      = 9.250086E-4
++PB      = 0.829352       MJ      = 0.3750922      CJSW    = 1.88997E-10
++PBSW    = 0.9897343      MJSW    = 0.1557289      PVTH0   = -0.0110745
++PRDSW   = -106.2339935   PK2     = 7.546534E-4    WKETA   = -3.146977E-3
++LKETA   = -2.710986E-3    )
+*
+.MODEL CMOSP PMOS (                                LEVEL   = 8
++VERSION = 3.1            TNOM    = 27             TOX     = 7.7E-9
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = -0.7253844
++K1      = 0.4300035      K2      = -0.0168451     K3      = 29.1133014
++K3B     = -4.8838973     W0      = 2.448022E-6    NLX     = 1.312736E-7
++DVT0W   = 0              DVT1W   = 5.3E6          DVT2W   = -0.032
++DVT0    = 0.6612563      DVT1    = 0.444662       DVT2    = -0.1181847
++U0      = 153.8963998    UA      = 3.868902E-10   UB      = 1.34742E-18
++UC      = -1.93034E-11   VSAT    = 9.651846E4     A0      = 1.0141954
++AGS     = 0.3929405      B0      = 1.681901E-6    B1      = 5E-6
++KETA    = -8.23149E-3    A1      = 0              A2      = 1
++RDSW    = 2.843009E3     PRWG    = 1.16773E-3     PRWB    = 0.1
++WR      = 1              WINT    = 5.145753E-8    LINT    = 1.649204E-9
++XL      = 0              XW      = 0              DWG     = -1.127594E-8
++DWB     = 1.134015E-8    VOFF    = -0.15          NFACTOR = 1.2915801
++CIT     = 0              CDSC    = 1.413317E-4    CDSCD   = 0
++CDSCB   = 0              ETA0    = 0.6976214      ETAB    = -3.889763E-3
++DSUB    = 0.8877574      PCLM    = 3.3268298      PDIBLC1 = 5.404243E-3
++PDIBLC2 = 2.257507E-5    PDIBLCB = 2.37525E-3     DROUT   = 0
++PSCBE1  = 2.968383E10    PSCBE2  = 1.303846E-8    PVAG    = 1.6832436
++DELTA   = 0.01           MOBMOD  = 1              PRT     = 0
++UTE     = -1.5           KT1     = -0.11          KT1L    = 0
++KT2     = 0.022          UA1     = 4.31E-9        UB1     = -7.61E-18
++UC1     = -5.6E-11       AT      = 3.3E4          WL      = 0
++WLN     = 1              WW      = 0              WWN     = 1
++WWL     = 0              LL      = 0              LLN     = 1
++LW      = 0              LWN     = 1              LWL     = 0
++CAPMOD  = 2              XPART   = 0.4            CGDO    = 4.56E-10 
++CGSO    = 4.56E-10       CGBO    = 0              CJ      = 1.391149E-3
++PB      = 0.99           MJ      = 0.5577335      CJSW    = 3.955431E-10
++PBSW    = 0.99           MJSW    = 0.281155       PVTH0   = 3.851168E-3
++PRDSW   = -162.9197485   PK2     = 6.593235E-4    WKETA   = -1.815566E-3
++LKETA   = 2.290499E-3     )
+*

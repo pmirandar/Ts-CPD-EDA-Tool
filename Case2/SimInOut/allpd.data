@@ -1,0 +1,182 @@
+ BSIM3v1: Berkeley Short Channel IGFET Model Version-3 (3.1)
+     device                    m7                    m6                    m5
+      model                 cmosp                 cmosp                 cmosp
+          l                 2e-06                 2e-06                 2e-06
+          w            7.4083e-05            1.0053e-05            1.0053e-05
+          m                     1                     1                     1
+         ad                     0                     0                     0
+         as                     0                     0                     0
+         pd           7.39801e-05           9.95008e-06                     0
+         ps           7.39801e-05           9.95008e-06                     0
+        nrd                     1                     1                     1
+        nrs                     1                     1                     1
+        off                     0                     0                     0
+     nqsmod                     0                     0                     0
+       gmbs           8.82791e-06           1.64301e-05           1.45435e-05
+         gm            9.7121e-06           7.75424e-05           6.88776e-05
+        gds            0.00418789           4.57311e-07           5.19368e-07
+      vdsat               3.57676              0.255061              0.255061
+        vth              0.740589              0.753175              0.753175
+         id           9.50664e-05           1.18868e-05           1.02904e-05
+        vbs                    -0                    -0                    -0
+        vgs               4.41071               1.01516               1.01516
+        vds             0.0226348               4.41071               1.01516
+
+ BSIM3v1: Berkeley Short Channel IGFET Model Version-3 (3.1)
+     device                    m1                    m8                    m4
+      model                 cmosn                 cmosn                 cmosn
+          l                 2e-06                 2e-06                 2e-06
+          w                 4e-06            1.4739e-05                 4e-06
+          m                     1                     1                     1
+         ad                     0                     0                     0
+         as                     0                     0                     0
+         pd           3.86195e-06           1.46009e-05                     0
+         ps           3.86195e-06           1.46009e-05                     0
+        nrd                     1                     1                     1
+        nrs                     1                     1                     1
+        off                     0                     0                     0
+     nqsmod                     0                     0                     0
+       gmbs           3.10402e-05            0.00012711           1.46762e-06
+         gm           0.000101806           0.000414189           3.02083e-06
+        gds            5.9693e-07           2.05933e-06           0.000483181
+      vdsat               0.33554              0.348207               1.81679
+        vth              0.530775              0.525308              0.693384
+         id            2.2442e-05           9.50664e-05           1.18868e-05
+        vbs                     0                     0             -0.564851
+        vgs              0.931487              0.931487               2.93515
+        vds              0.931487               4.97737             0.0244405
+
+ BSIM3v1: Berkeley Short Channel IGFET Model Version-3 (3.1)
+     device                    m3                    m2
+      model                 cmosn                 cmosn
+          l                 2e-06                 2e-06
+          w                 4e-06                 4e-06
+          m                     1                     1
+         ad                     0                     0
+         as                     0                     0
+         pd                     0                     0
+         ps                     0                     0
+        nrd                     1                     1
+        nrs                     1                     1
+        off                     0                     0
+     nqsmod                     0                     0
+       gmbs           1.79462e-05           3.06957e-05
+         gm           7.18713e-05           0.000100608
+        gds           3.29457e-07           1.04173e-06
+      vdsat              0.235739              0.335166
+        vth              0.688698              0.531281
+         id           1.02904e-05           2.21772e-05
+        vbs             -0.564851                     0
+        vgs              0.935149              0.931487
+        vds               3.41999              0.564851
+
+ Isource: Independent current source
+     device                  iref
+         dc            2.2442e-05
+          m                     1
+      acmag                     0
+      pulse         -
+       sine         -
+        sin         -
+        exp         -
+        pwl         -
+       sffm         -
+         am         -
+    trnoise         -
+   trrandom         -
+          v              -4.06851
+          p           9.13056e-05
+    current            2.2442e-05
+
+ VCVS: Voltage controlled voltage source
+     device                   ev2                   ev1
+          i           4.03222e-09          -1.33173e-09
+          v                    -1                     1
+          p          -4.03222e-09          -1.33173e-09
+
+ Vsource: Independent voltage source
+     device                   vcm                    vd                   vss
+         dc                     0                     0                  -2.5
+      acmag                     0                     0                     0
+      pulse         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+       sine         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+        sin         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+        exp         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+        pwl         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+       sffm         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+         am         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+    trnoise         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+   trrandom         -                     0         -
+                                          2          
+                                          0          
+                                      1e-10          
+                                      1e-10          
+                                 4.9999e-06          
+                                      1e-05          
+          i           2.70049e-09                    -2           0.000139686
+          p                    -0                     4           0.000349215
+
+ Vsource: Independent voltage source
+     device                   vdd
+         dc                   2.5
+      acmag                     0
+      pulse         -
+       sine         -
+        sin         -
+        exp         -
+        pwl         -
+       sffm         -
+         am         -
+    trnoise         -
+   trrandom         -
+          i          -0.000139676
+          p           0.000349189
+
