@@ -118,5 +118,5 @@ else
 .
 .
 ```
-Depending on the OS you are using. These action is necessary because Ngspice is used in batch mode.
+depending on the OS you are using. This action is necessary because Ngspice is used in batch mode.
 
